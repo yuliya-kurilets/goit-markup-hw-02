@@ -1,11 +1,37 @@
+:root {
+  primary-color: #212121;
+  
+
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #212121;
   }
 
-/*
-  background: #eeeeee;
-  font-weight: 
-  font-family: 'Raleway', sans-serif;
-*/
-  
+/*Logo*/ 
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 30.52px;
+  letter-spacing: 0.03;
+  text-decoration: none;
+} 
+
+.logo-web {
+  color: #2196f3;
+}
+
+.logo-studio {
+  color: #000000;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+
+}
