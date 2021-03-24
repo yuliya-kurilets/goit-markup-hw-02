@@ -16,8 +16,15 @@ body {
   font-style: normal;
   font-size: 26px;
   line-height: 30.52px;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
   text-decoration: none;
+
+  /*position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;*/
+
 } 
 
 .logo-web {
@@ -34,4 +41,47 @@ body {
 
 .link {
 
+}
+
+
+.portfolio {
+  /*position: absolute;*/
+  width: 1170px;
+  /*height: 1360px;*/
+  left: 215px;
+  top: 174px;
+  border: 1px solid rgba(238, 238, 238, 1);
+}
+
+.project {
+  /*position: absolute;*/
+  width: 370px;
+  height: 404px;
+  left: 615px;
+  top: 262px;
+  border: 1px solid rgba(238, 238, 238, 1);
+}
+
+.project-image {
+  /*position: absolute;*/
+  width: 370px;
+  height: 294px;
+  left: 615px;
+  top: 262px;
+}
+
+.project-title {
+  /*position: absolute;*/
+  width: 322px;
+  height: 70px;
+  left: 639px;
+  top: 576px;
+}
+
+.project-title-name {
+
+}
+
+.project-title-category {
+  
 }
