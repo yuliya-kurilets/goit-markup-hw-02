@@ -7,11 +7,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
           rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/styles.css">
-        <!--
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
-    Raleway 700-->
-
     <title>GoIT markup-hw-02</title>
 </head>
 
@@ -21,19 +16,21 @@
         <nav>
             <a href="./" class="logo"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
             <ul class="list">
-                <li><a href="./index.html">Студия</a></li>
-                <li><a href="./portfolio.html">Портфолио</a></li>
-                <li><a href="./contacts.html">Контакты</a></li>
+                <div class="menu">
+                <li><a href="./index.html" class="link menu-studio current">Студия</a></li>
+                <li><a href="./portfolio.html" class="link menu-portfolio">Портфолио</a></li>
+                <li><a href="./contacts.html" class="link menu-contacts">Контакты</a></li>
+            </div>
             </ul>
         </nav>
 
         <section>
-            <h2>Контакты</h2>
+            <h2 hidden>Контакты</h2>
             <ul class="list">
                 <!--Почтовый ящик (ссылка)-->
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a href="mailto:info@devstudio.com" class="e-mail">info@devstudio.com</a></li>
                 <!--Телефон-->
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li><a href="tel:+380961111111" class="phone">+38 096 111 11 11</a></li>
             </ul>
         </section>
             
@@ -41,28 +38,28 @@
 
     <main>
         <section>
-            <h2>Категории</h2>
+            <h2 hidden>Категории</h2>
             <ul class="list">
                 <li>
-                    <button type="button" name="button1">Все</button>
+                    <button type="button" name="button1" class="button current">Все</button>
                 </li>
                 <li>
-                    <button type="button" name="button2">Веб-сайты</button>
+                    <button type="button" name="button2" class="button">Веб-сайты</button>
                 </li>
                 <li>
-                    <button type="button" name="button3">Приложения</button>
+                    <button type="button" name="button3" class="button">Приложения</button>
                 </li>
                 <li>
-                    <button type="button" name="button4">Дизайн</button>
+                    <button type="button" name="button4" class="button">Дизайн</button>
                 </li>
                 <li>
-                    <button type="button" name="button5">Маркетинг</button>
+                    <button type="button" name="button5" class="button">Маркетинг</button>
                 </li>
             </ul>
         </section>
 
         <section class="portfolio">
-            <h2>Портфолио</h2>
+            <h2 hidden>Портфолио</h2>
             <ul class="list">
                 <li class="project">
                     <img src="./images/portfolio/img_1.jpg" alt="Ноутбук, на котором открыт сайт" width="370" class="project-image">
@@ -137,10 +134,10 @@
     <footer>
         <a href="./" class="logo"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
         <address>
-            <p> г. Киев, пр-т Леси Украинки, 26</p>
             <ul class="list">
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li><a href="https://goo.gl/maps/617V2JoC2JF7tzCK7" target="_blank" rel="noopener noreferrer" class="link">г. Киев, пр-т Леси Украинки, 26</a></li>    
+                <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
             </ul>
         </address>
     </footer>

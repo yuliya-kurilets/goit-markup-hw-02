@@ -3,10 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacts</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>GoIT markup-hw-02</title>
 </head>
+
+
+
 <body>
-    <p>Contacts</p>
+    <!--Шапка-->
+    <header>
+        <nav>
+            <a href="./" class="logo"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
+            <ul class="list">
+                <div class="menu">
+                <li><a href="./index.html" class="link menu-studio current">Студия</a></li>
+                <li><a href="./portfolio.html" class="link menu-portfolio">Портфолио</a></li>
+                <li><a href="./contacts.html" class="link menu-contacts">Контакты</a></li>
+            </div>
+            </ul>
+        </nav>
+
+        <section>
+            <h2 hidden>Контакты</h2>
+            <ul class="list">
+                <!--Почтовый ящик (ссылка)-->
+                <li><a href="mailto:info@devstudio.com" class="e-mail">info@devstudio.com</a></li>
+                <!--Телефон-->
+                <li><a href="tel:+380961111111" class="phone">+38 096 111 11 11</a></li>
+            </ul>
+        </section>
+            
+    </header>
+
+    <main>
     <a href="./index.html">На главную</a>
+    </main>
 </body>
+
+<footer>
+    <a href="./" class="logo"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
+    <address>
+        <ul class="list">
+            <li><a href="https://goo.gl/maps/617V2JoC2JF7tzCK7" target="_blank" rel="noopener noreferrer" class="link">г. Киев, пр-т Леси Украинки, 26</a></li>    
+            <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+        </ul>
+    </address>
+</footer>
+
+</body>
+
 </html>
